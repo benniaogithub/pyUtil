@@ -1,0 +1,13 @@
+
+Tue, 07 Mar 2017 11:42:40 plot_penalty_select.py[line:29] INFO [ 0  2  3  4 11 13]
+Tue, 07 Mar 2017 11:42:40 plot_penalty_select.py[line:32] INFO (133322L, 6L)
+Tue, 07 Mar 2017 11:44:07 plot_penalty_select.py[line:29] INFO [ 0  2  3  4 11 13]
+Tue, 07 Mar 2017 11:44:09 plot_penalty_select.py[line:34] INFO (133322L, 6L)
+Tue, 07 Mar 2017 11:44:48 plot_penalty_select.py[line:29] INFO [ 0  3  4  5  6  7  8  9 10 11 13 14 15 17 19 20 21 22 24 25 27]
+Tue, 07 Mar 2017 11:44:50 plot_penalty_select.py[line:34] INFO (133322L, 21L)
+Tue, 07 Mar 2017 11:45:21 plot_penalty_select.py[line:29] INFO [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24 25
+ 26 27 28]
+Tue, 07 Mar 2017 11:45:24 plot_penalty_select.py[line:34] INFO (133322L, 28L)
+Tue, 07 Mar 2017 11:45:43 plot_penalty_select.py[line:29] INFO [ 0  2  3  4  5  6  7  8  9 10 11 13 19 20 21 24 25 27]
+Tue, 07 Mar 2017 11:45:46 plot_penalty_select.py[line:34] INFO (133322L, 18L)
+Tue, 07 Mar 2017 11:50:00 plot_penalty_select.py[line:30] INFO [ 0  2  3  4  5  6  7  8  9 10 11 13 20 22 24 25 26 27]
