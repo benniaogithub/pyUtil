@@ -16,7 +16,7 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.feature_selection import RFECV
 from sklearn.datasets import make_classification
 import personas.datasets
-
+from sklearn.svm import LinearSVC
 
 
 
@@ -26,7 +26,8 @@ X = dataObj.data
 y = dataObj.target
 
 # Create the RFE object and compute a cross-validated score.
-svc = SVC(kernel="linear")
+# svc = SVC(kernel="linear")    # large
+svc = LinearSVC()
 # The "accuracy" scoring is proportional to the number of correct
 # classifications
 rfecv = RFECV(estimator=svc, step=1, cv=StratifiedKFold(2),

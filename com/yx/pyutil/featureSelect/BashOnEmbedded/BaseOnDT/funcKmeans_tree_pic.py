@@ -27,7 +27,10 @@ def createDataSet():
 if __name__ == '__main__':
     data,target = createDataSet()
     clf = tree.DecisionTreeClassifier()
+    #clf.feature_importances_
     clf = clf.fit(data,target)
+
+
 
 
     dot_data = tree.export_graphviz(clf, out_file=None)

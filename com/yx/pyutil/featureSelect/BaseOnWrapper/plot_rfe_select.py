@@ -48,8 +48,8 @@ rfe.fit(X, y)
 ranking = rfe.ranking_
 print ranking
 
-# # Plot pixel ranking
-# plt.matshow(ranking, cmap=plt.cm.Blues)
-# plt.colorbar()
-# plt.title("Ranking of pixels with RFE")
-# plt.show()
+# Plot pixel ranking
+plt.matshow(ranking, cmap=plt.cm.Blues)
+plt.colorbar()
+plt.title("Ranking of pixels with RFE")
+plt.show()
